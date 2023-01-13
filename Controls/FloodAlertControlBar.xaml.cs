@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Rivers
+namespace Rivers.Controls
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for FloodAlertControlBar.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class FloodAlertControlBar : UserControl
     {
-        public MainWindow()
+        public FloodAlertControlBar()
         {
             InitializeComponent();
         }
